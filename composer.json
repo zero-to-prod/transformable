@@ -1,0 +1,45 @@
+{
+  "type": "library",
+  "name": "zero-to-prod/transformable",
+  "description": "A PHP library for transforming a class into different types.",
+  "keywords": [
+    "zero-to-prod",
+    "transformable"
+  ],
+  "homepage": "https://github.com/zero-to-prod/transformable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "David Smith",
+      "email": "dave0016@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zerotoprod\\Transformable\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require-dev": {
+    "phpunit/phpunit": "^7.0"
+  },
+  "suggest": {
+    "zero-to-prod/data-model": "A PHP library for mapping and transforming data to a class instance."
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "@echo Thank you for installing zero-to-prod/transformable!",
+      "@echo Visit our repository at: https://github.com/zero-to-prod/transformable"
+    ]
+  }
+}
