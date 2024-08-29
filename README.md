@@ -2,6 +2,14 @@
 
 Transform a class into different types.
 
+## Installation
+
+You can install the package via Composer:
+
+```bash
+composer require zerotoprod/transformable
+```
+
 ## Methods
 
 - `toArray(): array` Converts the object’s properties into an associative array.
