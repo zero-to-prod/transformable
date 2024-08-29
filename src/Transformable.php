@@ -16,11 +16,14 @@ trait Transformable
                 continue;
             }
 
-            $array[$property] = is_object($value) ? get_object_vars($value) : $value;
+            if (!is_null($value)) {
+                $array[$property] = is_object($value) ? get_object_vars($value) : $value;
+            }
         }
 
         return $array;
     }
+
 
     public function toJson(): string
     {

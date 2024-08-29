@@ -27,10 +27,6 @@ class ToArrayTest extends TestCase
             Base::int => 42,
             Base::float => 3.14,
             Base::bool => true,
-            Base::array => null,
-            Base::object => null,
-            Base::null => null,
-            Base::resource => null,
         ];
 
         $this->assertEquals($expected, $model->toArray());
@@ -48,13 +44,6 @@ class ToArrayTest extends TestCase
 
         $expected = [
             Base::array => ['key1' => 'value1', 'key2' => 'value2'],
-            Base::string => null,
-            Base::int => null,
-            Base::float => null,
-            Base::bool => null,
-            Base::object => null,
-            Base::null => null,
-            Base::resource => null,
         ];
 
         $this->assertEquals($expected, $model->toArray());
@@ -79,13 +68,6 @@ class ToArrayTest extends TestCase
                 'property1' => "value1",
                 'property2' => "value2",
             ],
-            Base::string => null,
-            Base::int => null,
-            Base::float => null,
-            Base::bool => null,
-            Base::null => null,
-            Base::resource => null,
-            Base::array => null
         ];
 
         $this->assertEquals($expected, $model->toArray());
@@ -102,14 +84,6 @@ class ToArrayTest extends TestCase
         $model->null = null;
 
         $expected = [
-            Base::null => null,
-            Base::string => null,
-            Base::int => null,
-            Base::float => null,
-            Base::bool => null,
-            Base::array => null,
-            Base::object => null,
-            Base::resource => null,
         ];
 
         $this->assertEquals($expected, $model->toArray());
@@ -131,13 +105,6 @@ class ToArrayTest extends TestCase
 
         $expected = [
             Base::resource => $resource,
-            Base::string => null,
-            Base::int => null,
-            Base::float => null,
-            Base::bool => null,
-            Base::array => null,
-            Base::object => null,
-            Base::null => null,
         ];
 
         $this->assertEquals($expected, $model->toArray());
@@ -165,13 +132,6 @@ class ToArrayTest extends TestCase
                     'property1' => "value1",
                 ],
             ],
-            Base::string => null,
-            Base::int => null,
-            Base::float => null,
-            Base::bool => null,
-            Base::object => null,
-            Base::null => null,
-            Base::resource => null,
         ];
 
         $this->assertEquals($expected, $model->toArray());
@@ -215,7 +175,6 @@ class ToArrayTest extends TestCase
             Base::object => [
                 'property1' => "value1",
             ],
-            Base::null => null,
             Base::resource => $resource,
         ];
 
