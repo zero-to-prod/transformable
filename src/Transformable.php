@@ -35,7 +35,7 @@ trait Transformable
                 continue;
             }
 
-            if (!is_null($value)) {
+            if ($value) {
                 $array[$property] = is_object($value) ? get_object_vars($value) : $value;
             }
         }
