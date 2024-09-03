@@ -121,6 +121,7 @@ class ToArrayTest extends TestCase
     {
         $innerObject = new stdClass();
         $innerObject->property1 = "value1";
+        $innerObject->property2 = null;
 
         $model = new Base();
         $model->array = ['key1' => 'value1', 'key2' => $innerObject];
