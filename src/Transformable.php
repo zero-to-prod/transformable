@@ -12,11 +12,16 @@ namespace Zerotoprod\Transformable;
 trait Transformable
 {
     /**
-     * Converts the object's properties to an associative array.
+     * Recursively converts a classes properties to an associative array.
      *
      * Iterates over each property of the object, transforming it into an array
      * if it is an object, or leaves it as-is if it's not. Nested arrays are also
      * handled by recursively converting objects within the array to associative arrays.
+     *
+     * Example
+     * ```
+     * $MyClass->toArray();
+     * ```
      *
      * @return array The object as an associative array.
      */
@@ -40,6 +45,11 @@ trait Transformable
      *
      * Uses the `toArray` method to first transform the object into an associative array,
      * then encodes it to a JSON string.
+     *
+     * Example
+     *  ```
+     *  $MyClass->toArray();
+     *  ```
      *
      * @return string The object as a JSON string.
      */
