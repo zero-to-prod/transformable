@@ -23,20 +23,12 @@ trait Transformable
     public function toArray(): array
     {
         $array = [];
+
         foreach ($this as $property => $value) {
-            if (is_array($value)) {
-                $array[$property] = array_map(
-                    static function ($item) {
-                        return is_object($item) ? get_object_vars($item) : $item;
-                    },
-                    $value
-                );
-
-                continue;
-            }
-
             if ($value) {
-                $array[$property] = is_object($value) ? get_object_vars($value) : $value;
+                $array[$property] = is_array($value) || is_object($value)
+                    ? (new Mapper($value))->toArray()
+                    : $value;
             }
         }
 
