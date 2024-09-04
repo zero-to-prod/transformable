@@ -1,4 +1,8 @@
 # Zerotoprod\Transformable
+[![Repo](https://img.shields.io/badge/github-gray?logo=github)](https://github.com/zero-to-prod/transformable)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/zero-to-prod/transformable.svg)](https://packagist.org/packages/zero-to-prod/transformable)
+![test](https://github.com/zero-to-prod/transformable/actions/workflows/phpunit.yml/badge.svg)
+![Downloads](https://img.shields.io/packagist/dt/zero-to-prod/transformable.svg?style=flat-square&#41;]&#40;https://packagist.org/packages/zero-to-prod/transformable&#41)
 
 Transform a class into different types.
 
