@@ -8,6 +8,8 @@ namespace Zerotoprod\Transformable;
  * The `Transformable` trait allows any class that uses it to easily convert its properties
  * into an associative array or a JSON string. This is particularly useful for data serialization
  * and API responses.
+ *
+ * @see      https://github.com/zero-to-prod/transformable
  */
 trait Transformable
 {
@@ -24,6 +26,8 @@ trait Transformable
      * ```
      *
      * @return array The object as an associative array.
+     *
+     * @see      https://github.com/zero-to-prod/transformable
      */
     public function toArray(): array
     {
@@ -52,6 +56,8 @@ trait Transformable
      *  ```
      *
      * @return string The object as a JSON string.
+     *
+     * @see      https://github.com/zero-to-prod/transformable
      */
     public function toJson(): string
     {

@@ -1,7 +1,7 @@
 {
   "type": "library",
   "name": "zero-to-prod/transformable",
-  "description": "A PHP library for transforming a class into different types.",
+  "description": "Transform a class into different types.",
   "keywords": [
     "zero-to-prod",
     "transformable"
@@ -32,6 +32,6 @@
     "phpunit/phpunit": "^7.0"
   },
   "suggest": {
-    "zero-to-prod/data-model": "A PHP library for mapping and transforming data to a class instance."
+    "zero-to-prod/data-model": "Transform data into a class."
   }
 }
