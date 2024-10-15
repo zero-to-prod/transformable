@@ -1,9 +1,11 @@
 # Zerotoprod\Transformable
 
 [![Repo](https://img.shields.io/badge/github-gray?logo=github)](https://github.com/zero-to-prod/transformable)
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/zero-to-prod/transformable.svg)](https://packagist.org/packages/zero-to-prod/transformable)
-![test](https://github.com/zero-to-prod/transformable/actions/workflows/phpunit.yml/badge.svg)
-![Downloads](https://img.shields.io/packagist/dt/zero-to-prod/transformable.svg?style=flat-square&#41;]&#40;https://packagist.org/packages/zero-to-prod/transformable&#41)
+[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/zero-to-prod/transformable/phpunit.yml?label=tests)](https://github.com/zero-to-prod/transformable/actions)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/zero-to-prod/transformable?color=blue)](https://packagist.org/packages/zero-to-prod/transformable/stats)
+[![Packagist Version](https://img.shields.io/packagist/v/zero-to-prod/transformable?color=f28d1a)](https://packagist.org/packages/zero-to-prod/transformable)
+[![GitHub repo size](https://img.shields.io/github/repo-size/zero-to-prod/transformable)](https://github.com/zero-to-prod/transformable)
+[![License](https://img.shields.io/packagist/l/zero-to-prod/transformable?color=red)](https://github.com/zero-to-prod/transformable/blob/main/LICENSE.md)
 
 Transform a class into different types.
 
