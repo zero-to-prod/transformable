@@ -1,4 +1,5 @@
 # Zerotoprod\Transformable
+
 [![Repo](https://img.shields.io/badge/github-gray?logo=github)](https://github.com/zero-to-prod/transformable)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/zero-to-prod/transformable.svg)](https://packagist.org/packages/zero-to-prod/transformable)
 ![test](https://github.com/zero-to-prod/transformable/actions/workflows/phpunit.yml/badge.svg)
@@ -14,13 +15,21 @@ You can install the package via Composer:
 composer require zerotoprod/transformable
 ```
 
+### Additional Packages
+
+- [DataModel](https://github.com/zero-to-prod/data-model): Transform data into a class.
+- [DataModelHelper](https://github.com/zero-to-prod/data-model-helper): Helpers for a `DataModel`.
+- [DataModelFactory](https://github.com/zero-to-prod/data-model-factory): A factory helper to set the value of your `DataModel`.
+
 ## Methods
 
 - `toArray(): array` Converts the object’s properties into an associative array.
 - `toJson(): string` Converts the object’s properties into a JSON string.
 
 ## Usage
+
 To use the `Zerotoprod\Transformable\Transformable` trait in your class, simply include it:
+
 ```php
 use Zerotoprod\Transformable\Transformable;
 

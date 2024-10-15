@@ -9,7 +9,11 @@ namespace Zerotoprod\Transformable;
  * into an associative array or a JSON string. This is particularly useful for data serialization
  * and API responses.
  *
- * @see      https://github.com/zero-to-prod/transformable
+ * @link      https://github.com/zero-to-prod/transformable
+ *
+ * @see       https://github.com/zero-to-prod/data-model
+ * @see       https://github.com/zero-to-prod/data-model-helper
+ * @see       https://github.com/zero-to-prod/data-model-factory
  */
 trait Transformable
 {
@@ -27,7 +31,11 @@ trait Transformable
      *
      * @return array The object as an associative array.
      *
-     * @see      https://github.com/zero-to-prod/transformable
+     * @link      https://github.com/zero-to-prod/transformable
+     *
+     * @see       https://github.com/zero-to-prod/data-model
+     * @see       https://github.com/zero-to-prod/data-model-helper
+     * @see       https://github.com/zero-to-prod/data-model-factory
      */
     public function toArray(): array
     {
@@ -57,7 +65,11 @@ trait Transformable
      *
      * @return string The object as a JSON string.
      *
-     * @see      https://github.com/zero-to-prod/transformable
+     * @link      https://github.com/zero-to-prod/transformable
+     *
+     * @see       https://github.com/zero-to-prod/data-model
+     * @see       https://github.com/zero-to-prod/data-model-helper
+     * @see       https://github.com/zero-to-prod/data-model-factory
      */
     public function toJson(): string
     {
