@@ -43,6 +43,10 @@ trait Transformable
 
         foreach ($this as $property => $value) {
             if ($value) {
+                if($value instanceof \UnitEnum){
+                    $array[$property] = $value->value;
+                    continue;
+                }
                 $array[$property] = is_array($value) || is_object($value)
                     ? (new Mapper($value))->toArray()
                     : $value;
