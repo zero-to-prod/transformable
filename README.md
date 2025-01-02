@@ -7,7 +7,7 @@
 [![GitHub repo size](https://img.shields.io/github/repo-size/zero-to-prod/transformable)](https://github.com/zero-to-prod/transformable)
 [![License](https://img.shields.io/packagist/l/zero-to-prod/transformable?color=red)](https://github.com/zero-to-prod/transformable/blob/main/LICENSE.md)
 [![wakatime](https://wakatime.com/badge/github/zero-to-prod/transformable.svg)](https://wakatime.com/badge/github/zero-to-prod/transformable)
-[![Hits-of-Code](https://hitsofcode.com/github/zero-to-prod//transformable?branch=main)](https://hitsofcode.com/github/zero-to-prod//transformable/view?branch=main)
+[![Hits-of-Code](https://hitsofcode.com/github/zero-to-prod/transformable?branch=main)](https://hitsofcode.com/github/zero-to-prod/transformable/view?branch=main)
 
 Transform a class into different types.
 
