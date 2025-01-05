@@ -1,7 +1,7 @@
 # Zerotoprod\Transformable
 
 [![Repo](https://img.shields.io/badge/github-gray?logo=github)](https://github.com/zero-to-prod/transformable)
-[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/zero-to-prod/transformable/phpunit.yml?label=tests)](https://github.com/zero-to-prod/transformable/actions)
+[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/zero-to-prod/transformable/test.yml?label=tests)](https://github.com/zero-to-prod/transformable/actions)
 [![Packagist Downloads](https://img.shields.io/packagist/dt/zero-to-prod/transformable?color=blue)](https://packagist.org/packages/zero-to-prod/transformable/stats)
 [![Packagist Version](https://img.shields.io/packagist/v/zero-to-prod/transformable?color=f28d1a)](https://packagist.org/packages/zero-to-prod/transformable)
 [![GitHub repo size](https://img.shields.io/github/repo-size/zero-to-prod/transformable)](https://github.com/zero-to-prod/transformable)
