@@ -7,6 +7,13 @@
     "transformable"
   ],
   "homepage": "https://github.com/zero-to-prod/transformable",
+  "support": {
+    "email": "dave0016@gmail.com",
+    "issues": "https://github.com/zero-to-prod/transformable/issues",
+    "source": "https://github.com/zero-to-prod/transformable",
+    "docs": "https://zero-to-prod.github.io/transformable/",
+    "security": "https://github.com/zero-to-prod/transformable/blob/main/SECURITY.md"
+  },
   "license": "MIT",
   "readme": "./README.md",
   "authors": [
