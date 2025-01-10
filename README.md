@@ -16,7 +16,7 @@ Transform a class into different types.
 You can install the package via Composer:
 
 ```bash
-composer require zerotoprod/transformable
+composer require zero-to-prod/transformable
 ```
 
 ### Additional Packages
