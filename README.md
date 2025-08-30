@@ -18,6 +18,8 @@
 - [Requirements](#requirements)
 - [Installation](#installation)
     - [Additional Packages](#additional-packages)
+- [Documentation Publishing](#documentation-publishing)
+    - [Automatic Documentation Publishing](#automatic-documentation-publishing)
 - [Usage](#usage)
     - [Methods](#methods)
 - [Local Development](./LOCAL_DEVELOPMENT.md)
@@ -46,6 +48,39 @@ This will add the package to your project’s dependencies and create an autoloa
 - [DataModel](https://github.com/zero-to-prod/data-model): Transform data into a class.
 - [DataModelHelper](https://github.com/zero-to-prod/data-model-helper): Helpers for a `DataModel`.
 - [DataModelFactory](https://github.com/zero-to-prod/data-model-factory): A factory helper to set the value of your `DataModel`.
+
+## Documentation Publishing
+
+You can publish this README to your local documentation directory.
+
+This can be useful for providing documentation for AI agents.
+
+This can be done using the included script:
+
+```bash
+# Publish to default location (./docs/zero-to-prod/transformable)
+vendor/bin/zero-to-prod-transformable
+
+# Publish to custom directory
+vendor/bin/zero-to-prod-transformable /path/to/your/docs
+```
+
+### Automatic Documentation Publishing
+
+You can automatically publish documentation by adding the following to your `composer.json`:
+
+```json
+{
+  "scripts": {
+    "post-install-cmd": [
+      "zero-to-prod-transformable"
+    ],
+    "post-update-cmd": [
+      "zero-to-prod-transformable"
+    ]
+  }
+}
+```
 
 ## Usage
 
